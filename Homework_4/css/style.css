@@ -1,0 +1,190 @@
+body {
+     margin: 0;
+     }
+
+     ul, menu, .submenu {
+             padding: 0;
+            }
+
+   .layer {
+        overflow: hidden;
+        position: relative;
+        height: auto;
+        background-image: url(../imgs/blue.png);
+        background-repeat: repeat;
+        }
+
+   .main {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 1000px;
+        height: 900px;
+        background-color: white;
+        box-shadow: 0 0 5px;
+        overflow: hidden;
+        }
+
+  .contact {
+      width:150px;
+      height: 100px;
+      margin-top: -180px;
+      float:right;
+      color: blue;
+      font-size: 14px;
+      }
+
+   .countries {
+            display: block;
+            list-style: none;
+            width: 700px;
+            height: 50px;
+            margin-left: -270px;
+            margin-top: 40px;
+             }
+
+    .countries li {
+          float: left;
+          padding: 5px;
+          width: 8%;
+          position: relative;
+    }
+
+    .countries li a {
+                display: block;
+                text-align: center;
+                padding-top: 40px;
+                background-position: center top;
+                background-repeat: no-repeat;
+                font-size: 11px;
+              }
+
+    .countries .india {
+          background-image: url(../imgs/india.jpg);
+          background-repeat: no-repeat;
+          background-position: center top;
+    }
+    .countries .nepal {
+          background-image: url(../imgs/nepal.jpg);
+          background-repeat: no-repeat;
+          background-position: center top;
+    }
+    .countries .tibet {
+          background-image: url(../imgs/tibet.jpg);
+          background-repeat: no-repeat;
+          background-position: center top;
+    }
+    .countries .bhutan {
+          background-image: url(../imgs/bhutan.jpg);
+          background-repeat: no-repeat;
+          background-position: center top;
+    }
+    .countries .sri_lanka {
+          background-image: url(../imgs/sri.jpg);
+          background-repeat: no-repeat;
+          background-position: center top;
+          }
+    .countries .maldives {
+         background-image: url(../imgs/maldives.jpg);
+         background-repeat: no-repeat;
+         background-position: center top;
+          }
+
+        div.img1 {
+        position: relative;
+        text-align: center;
+        height: 236px;
+        width: 1000px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+      }
+
+   .menu {
+        display: inline-block;
+        list-style-type: none;
+        width: 1000px;
+        margin: 0;
+        margin-top: -5px;
+        background-color: #303030;
+        box-shadow: 0.4em 0.4em 5px dimgrey;
+         }
+
+   .menu li {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 13%;
+        padding: 5px;
+        color: white;
+        text-align: center;
+        background-color: #303030;
+        }
+
+    .arrow {
+           float: right;
+           margin: 0;
+           padding: 0;
+    }
+
+    .submenu {
+             display:none;
+             position: absolute;
+             width: 130px;
+             margin-top: -2px;
+             top: 30px;
+             left: 0;
+             background-color: #303030;
+             box-shadow: 0.4em 0.4em 5px dimgrey;
+             border-top: 1px solid black;
+             }
+
+     .submenu li {
+              display: block;
+              width: 130px;
+              padding: 5px;
+              color: white;
+               }
+
+    .menu >li:hover > .submenu {
+              display: block;
+    }
+
+    .sidebar {
+      float: left;
+      width: 200px;
+      height: 455px;
+      margin-top: -10px;
+      margin-bottom: 0;
+      padding-left: 10px;
+      background-color: gainsboro;
+      border-right: 2px solid silver;
+      padding-bottom: 20000px;
+      margin-bottom: -20000px;
+    }
+
+    .center {
+      float: left;
+      width: 600px;
+      background-color: white;
+      padding-bottom: 20000px;
+      margin-bottom: -20000px;
+    }
+
+    .news {
+       float: right;
+       width: 200px;
+       height: 455px;
+       margin-top: -10px;
+       margin-bottom: 0;
+       padding-left: 10px;
+       background-color: gainsboro;
+       border-left: 2px solid silver;
+       padding-bottom: 20000px;
+       margin-bottom: -20000px;
+       }
+
+    .footer {
+       background-color: inherit;
+       color: white;
+       text-align: center;
+    }
