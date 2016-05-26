@@ -1,0 +1,119 @@
+body {
+     margin: 0;
+
+}
+.layer {
+     overflow: hidden;
+     position: relative;
+     background-color: whitesmoke;
+
+}
+.main {
+     margin: 0 auto;
+     text-align: left;
+     width: 900px;
+     height: 750px;
+     box-shadow: 0 0 2px;
+     background-color: white;
+
+
+}
+.img1 {
+    margin-left: 30px;
+}
+.box {
+  display: inline-block;
+  width: 780px;
+  background-color: dimgrey;
+  margin-left: 40px;
+  }
+
+ul li{
+   display: inline-block;
+   float:left;
+   width: 10%;
+   padding: 10px;
+   border-left: 1px solid transparent;
+   border-right: 1px solid transparent;
+   color: white;
+   background-color: dimgrey;
+   text-align: center;
+    }
+ ul li:hover {
+                background-color: black;
+             }
+
+
+
+ .sidebar {
+   width: 300px;
+   float: left;
+ }
+ ol li {
+        width: 200px;
+        padding: 6px;
+        list-style: none;
+        box-sizing: border-box;
+        border-top: 1px solid grey;
+        border-right: 1px solid grey;
+        border-bottom: 0;
+        border-left: 1px solid grey;
+        color: dimgrey;
+        }
+ ol li:hover {
+             color: black;
+             background-color: whitesmoke;
+             padding-left: 5%;
+             }
+ol li:last-child {
+              border-bottom: 1px solid grey;
+}
+
+ .content {
+           width: 400px;
+           height: auto;
+           float: right;
+          }
+
+ div.img {
+       float: right;
+       margin: 0 auto;
+       margin-right: 40px;
+       border-top: 1px solid black;
+       border-right: 1px solid black;
+       border-bottom: 1px solid black;
+       border-left: 1px solid black;
+        }
+ p {
+   float:right;
+   width: 500px;
+   margin: 0 auto;
+   margin-right: 40px;
+   margin-top: 30px;
+ }
+
+ .footer {
+   position: relative;
+   display: block;
+
+   width: 1070px;
+   margin-top: -100px;
+   margin-left: 220px;
+
+
+}
+.list li { display: inline-block;
+float: left;
+width: 10%;
+background-color: gainsboro;
+color: black;
+
+}
+.list li:hover {
+              text-decoration: underline;
+              background-color: gainsboro;
+}
+.list li:last-child {
+                  width: 30%;
+                  text-align-last: right;
+}
