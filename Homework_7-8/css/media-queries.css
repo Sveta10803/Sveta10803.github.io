@@ -1,0 +1,36 @@
+  @media screen and (max-width: 960px) {
+    body {
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+  header, main, article, section, .logo, footer {
+    margin-left: 836px;
+    margin-right: 836px;
+  }
+}
+
+  @media screen and (max-width: 480px) {
+    body {
+      float:left;
+    }
+
+    header, main, article, section, .logo, footer {
+      width: 50%;
+    }
+
+    .list_1  {
+      display: block;
+      height: 260px;
+      width: 50%;
+      background-color: rgb(59, 46, 67);
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    body {
+      float:left;
+    }
+  
+  }
