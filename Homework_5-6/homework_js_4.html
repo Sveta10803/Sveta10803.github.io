@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Document </title>
+  <style>
+
+  div.timer {
+      margin: 5px;
+      box-sizing: border-box;
+      border: 10px solid black;
+      border-radius: 30px;
+      width: 850px;
+      height: 200px;
+      line-height: 50px;
+      font-size: 36px;
+      background-color: paleturquoise;
+      text-align: center;
+      margin-left: 250px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+  }
+
+  form  {
+     margin-left: 250px;
+
+   }
+
+button[class="start-stop"] {
+  width: 300px;
+  height: 100px;
+  margin-right: 200px;
+  box-sizing: border-box;
+  border: 10px solid black;
+  border-radius: 40px;
+  cursor: pointer;
+  background-image: linear-gradient(150deg, #1DC622, #1B951F);
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+button[id="clear"] {
+  width: 300px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 10px solid black;
+  border-radius: 40px;
+  cursor: pointer;
+  background-image: linear-gradient(150deg, #F52222, #AC0D0D);
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+
+</style>
+</head>
+<body>
+  <div class="timer">
+    <div id="for_text"></div>
+    <div id="for_count"></div>
+  </div>
+  <form>
+  <button id="start" class="start-stop"> Start  </button>
+  <button id="pause" class="start-stop"> Pause  </button>
+  <button id="clear"> Clear  </button>
+  </form>
+
+</body>
+<script src='jscode_4.js'></script>
+
+</html>
