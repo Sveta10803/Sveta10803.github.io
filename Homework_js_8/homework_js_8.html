@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Document </title>
+<style>
+
+form {
+
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 600px;
+  height: 200px;
+  box-sizing: border-box;
+  border: 2px solid grey;
+}
+
+form input[type=text] {
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+button[type="show"] {
+  margin-left: 100px;
+  height: 35px;
+  width: 110px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(248, 248, 248);
+  font-size: 16px;
+}
+
+span {
+  width: 50px;
+  margin-left: 15px;
+  font-size: 20px;
+
+}
+
+form > div {
+  position: relative;
+}
+form > div > label {
+    position: absolute;
+}
+
+
+</style>
+
+</head>
+<body>
+<form action="#" method="post">
+  <div >
+  <span>Firstname</span>  <input id="name" title="Please provide your firtname" type="text" required />
+      <label for="name"> </label>
+
+</div>
+ <div >
+   <span>Lastname</span>  <input type="text" title="Please provide also your lastname" />
+</div>
+<div class="three">
+<span>Address &nbsp;</span>  <input type="text" title="Your home or work address" /></div>
+
+</form>
+<button type="show">Show help</button>
+
+</body>
+</html>
